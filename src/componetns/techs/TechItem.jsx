@@ -7,7 +7,7 @@ import M from 'materialize-css/dist/js/materialize.min.js';
 const TechItem = ({tech, deleteTech}) => {
   const onDeleteTech = () => {
     deleteTech(tech.id);
-    M.toast({html: 'Log deleted'})
+    M.toast({html: 'Technician was deleted'})
   }
   return (
     <li className="collection-item">
